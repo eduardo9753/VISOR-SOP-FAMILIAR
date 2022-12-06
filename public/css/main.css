@@ -1,0 +1,94 @@
+/*ESTILOS LOGO*/
+.logo img{ border-radius: 10px; width: 278px; height: 66px;}
+.white{color: #fff; font-size: 25px;}
+.fondo-trasparente{background-color: rgba(255,255,255,0.6); padding: 10px;}
+
+
+/*MOVIMIENTO*/
+.mover-derecha{
+  animation: MoverDerecha .5s;
+}
+
+@keyframes MoverDerecha{
+  0%{
+      opacity: 0;
+      transform: translateX(-200px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+
+/*FONDO ADMINNISTRADOR*/
+.fondo{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)) ,url(../img/login.jpg);
+  width: 100%;
+  height: 100vh;
+}
+
+
+.top{ padding-top: 180px;}
+.top2{ padding-top: 200px;}
+.color-border{ border: 1px solid #502267;}
+
+
+/*POSITION ABSOLUTO BOTONES*/
+.center { position: absolute; left: 35px; text-align: center;}
+.center-top{top: 40%;}
+.relative{position: relative;}
+
+
+.my-btn {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+.my-btn-color{ background-color: #502267;}
+
+.my-btn:hover{ color: #fff; transition: all .3s ease-in-out;}
+ 
+.purpura {
+  background-color: rgba(80, 34, 103, 0.8);
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.purpura:hover {background-color: rgba(80, 34, 103, 0.9);}
+.morado {color: #502267;}
+.color-nav {background-color: #502267;}
+
+
+
+/*ESTILOS DEL VIDEO*/
+.my-video{
+  width: 1800px;
+  height: 470px;
+}
+
+.titulo{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
+}
+
+.titulo_head_table{
+  color: #502267;
+}
+
+
+/*ESTILOS BODY TABLE*/
+.tamanio-letra{
+  font-size: 1.3rem;
+}
